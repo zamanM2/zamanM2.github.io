@@ -10,7 +10,7 @@ import './assets/headshot.png'
 
 //import ReactDOM from 'react-dom';
 
-import './css/App.css';
+//import './css/App.css';
 
 class App extends Component {
   render() {
