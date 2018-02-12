@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom';
 
 
 
-const NavBar = (props) => {
+const Navigation = ()=> {
   console.log( 'Nav component loaded');
 
 
 
   return (
       <div className="container">
-      <NavLink to="/Home" exact className="nav" activeClassName="active">
+      <NavLink to="/" exact className="nav" activeClassName="active">
       Home
       </NavLink>
       <NavLink to="/Experiences" exact className="nav" activeClassName="active">
@@ -26,4 +26,4 @@ const NavBar = (props) => {
   );
 };
 
-export default NavBar;
+export default Navigation;

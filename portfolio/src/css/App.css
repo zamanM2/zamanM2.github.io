@@ -32,11 +32,11 @@
   text-align: center;
   margin: 0px;
   background-color: rgba( 0,180,250, .6);
-  border: 0px solid rgba(0,0,250, .0) ;
-  background-image: url(https://imgur.com/BWwKEqP);
+  border: 0px solid rgba(150,0,150, .0) ;
+  background-image: url("https://imgur.com/BWwKEqP");
   background-repeat: no-repeat;
   background-size: cover;
-},
+}
 
 .home {
   min-height: 500px;
@@ -47,7 +47,7 @@
   background-color: rgba(98, 98, 80, .8);
   border: 0px solid rgba(000,100,100,.3);
   border-radius: 10px;
- background-image: url(https://imgur.com/BWwKEqP);
+
   color: white;
 
 }

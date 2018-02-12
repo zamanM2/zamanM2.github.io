@@ -4,6 +4,7 @@ import { Route, Switch,Link } from 'react-router-dom';
 import Experiences from './pages/Experiences';
 import About from './pages/About';
 import Home from './pages/Home';
+import Navigation from'./components/Navigation';
 import './css/App.css';
 
 //import ReactDOM from 'react-dom';
@@ -15,13 +16,12 @@ class App extends Component {
     return (
 
       <div className="App">
-
-
-       <Home />
-       <Switch>
-       <Route path="/Experiences" exact component={Experiences} />
-       <Route path="/About" exact component={About} />
-       </Switch>
+      <Navigation />
+        <Switch>
+       <Route path="/" exact component={Home} />
+       <Route path="/Experiences"  component={Experiences} />
+       <Route path="/About" component={About} />
+        </Switch>
 
 
       </div>
