@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import '../css/App.css';
 
 
 const Navigation = ()=> {
@@ -10,14 +10,16 @@ const Navigation = ()=> {
 
   return (
       <div className="container">
-      <NavLink to="/" exact className="nav" activeClassName="active">
-      Home
+
+       <NavLink to="/" exact className="nav" activeClassName="active">
+      <button>Home </button>
       </NavLink>
+
       <NavLink to="/Experiences" exact className="nav" activeClassName="active">
-      Experiences
+      <button> Experiences </button>
       </NavLink>
-      <NavLink to="/About" className="nav" activeClassName="active">
-      About
+      <NavLink to="/Projects" className="nav" activeClassName="active">
+      <button> Projects</button>
       </NavLink>
 
     </div>

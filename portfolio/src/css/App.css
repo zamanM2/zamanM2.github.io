@@ -51,3 +51,30 @@
   color: white;
 
 }
+
+/*
+button {
+  margin: auto;
+  color: purple;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: steelblue;
+}*/
+
+
+.nav {
+  color: white;
+  min-width: 60px;
+  margin: 5px;
+  padding: 10px 10px;
+  background-color: black;
+  border: 10px ;
+  border-radius: 7px;
+}
+
+.nav:hover {
+  background-color: green;
+}
