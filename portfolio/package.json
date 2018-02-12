@@ -9,6 +9,7 @@
   "dependencies": {
     "history": "^2.1.2",
     "morgan": "*",
+    "node-sass": "^4.7.2",
     "pg-promise": "*",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
