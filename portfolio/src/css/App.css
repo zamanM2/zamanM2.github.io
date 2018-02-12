@@ -34,12 +34,20 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.home{
+
+  background:url("https://images-na.ssl-images-amazon.com/images/M/MV5BNTczMzk1MjU1MV5BMl5BanBnXkFtZTcwNDk2MzAyMg@@._V1_UY317_CR2,0,214,317_AL_.jpg");
+}
+
+
 .App {
   text-align: center;
   margin: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+ /* background:url("https://images-na.ssl-images-amazon.com/images/M/MV5BNTczMzk1MjU1MV5BMl5BanBnXkFtZTcwNDk2MzAyMg@@._V1_UY317_CR2,0,214,317_AL_.jpg");*/
 }
 
 .home,.about,.projects {
@@ -59,7 +67,7 @@ html {
 
 
 
-/*
+
 button {
   margin: auto;
   color: purple;
@@ -69,7 +77,7 @@ button {
 
 button:hover {
   background-color: steelblue;
-}*/
+}
 
 
 .nav {

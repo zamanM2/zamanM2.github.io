@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Navigation from'./components/Navigation';
 import './css/App.css';
 import './assets/headshot.png'
+import Footer from './components/Footer';
 
 //import ReactDOM from 'react-dom';
 
