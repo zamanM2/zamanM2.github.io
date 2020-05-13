@@ -347,7 +347,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  
+   background-image: url("https://previews.123rf.com/images/monsitj/monsitj1707/monsitj170700082/82427415-programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg") !important;
 }
 
 .bg-secondary {
@@ -364,7 +365,7 @@ a:focus, a:hover, a:active {
 
 .btn-primary {
   background-color: rgb(30, 104, 138);
-  border-color: #18BC9C;
+  border-color: rgb(2, 64, 75);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
